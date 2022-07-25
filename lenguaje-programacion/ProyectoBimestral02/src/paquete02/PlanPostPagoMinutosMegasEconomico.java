@@ -50,7 +50,7 @@ public class PlanPostPagoMinutosMegasEconomico extends PlanCelular {
         return gigasInternet;
     }
 
-    public void establcerGigasInternet(double gigasInternet) {
+    public void establecerGigasInternet(double gigasInternet) {
         this.gigasInternet = gigasInternet;
     }
 
