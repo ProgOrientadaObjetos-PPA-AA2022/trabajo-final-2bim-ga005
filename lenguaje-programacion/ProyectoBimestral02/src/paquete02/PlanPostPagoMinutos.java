@@ -17,7 +17,9 @@ public class PlanPostPagoMinutos extends PlanCelular {
     private double minutosInternacionales;
     private double costoMinutoInternacional;
 
-    public PlanPostPagoMinutos(double minutosNacionales, double costoMinutoNacional, double minutosInternacionales, double costoMinutoInternacional, String nombrePropietario, String cadulaPropietario, String ciudadPropietario, String marcaCelular, String modeloCelular, int numeroCelular) {
+    public PlanPostPagoMinutos(double minutosNacionales, double costoMinutoNacional, double minutosInternacionales,
+                               double costoMinutoInternacional, String nombrePropietario, String cadulaPropietario,
+                               String ciudadPropietario, String marcaCelular, String modeloCelular, int numeroCelular) {
         super(nombrePropietario, cadulaPropietario, ciudadPropietario, marcaCelular, modeloCelular, numeroCelular);
         this.minutosNacionales = minutosNacionales;
         this.costoMinutoNacional = costoMinutoNacional;
