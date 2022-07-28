@@ -28,7 +28,7 @@ public abstract class PlanCelular {
         this.numeroCelular = numeroCelular;
     }
 
-    public PlanCelular() {
+    public PlanCelular () {
     }
     
     public String obtenerNombrePropietario() {
