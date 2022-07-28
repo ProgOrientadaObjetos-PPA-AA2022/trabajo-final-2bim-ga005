@@ -28,8 +28,9 @@ public class Ejecutor {
             System.out.println("-----------------------------------");
             if (op == 1) {
                 do {
-
+                    
                     op2 = menu();
+                    sc.nextLine();
                     System.out.println("Ingrese nombre del propietario:");
                     nombre = sc.nextLine();
                     System.out.println("Ingrese cedula del propietario:");
