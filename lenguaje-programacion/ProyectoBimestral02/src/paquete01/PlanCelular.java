@@ -18,7 +18,8 @@ public abstract class PlanCelular {
     protected int numeroCelular;
     protected double pagoMensual;
 
-    public PlanCelular(String nombrePropietario, String cadulaPropietario, String ciudadPropietario, String marcaCelular, String modeloCelular, int numeroCelular) {
+    public PlanCelular(String nombrePropietario, String cadulaPropietario, String ciudadPropietario, String marcaCelular,
+                       String modeloCelular, int numeroCelular) {
         this.nombrePropietario = nombrePropietario;
         this.cedulaPropietario = cadulaPropietario;
         this.ciudadPropietario = ciudadPropietario;

@@ -66,7 +66,8 @@ public class Enlace {
             establecerConexion();
             Statement statement = obtenerConexion().createStatement();
             String data = String.format("INSERT INTO planPostPagoMinutos (nombrePropietario,cedulaPropietario,"
-                    + "ciudadPropietario,marcaCelular,modeloCelular,numeroCelular,minutosNacionales,costoMinutoNacional,minutosInternacionales,costoMinutoInternacional) values "
+                    + "ciudadPropietario,marcaCelular,modeloCelular,numeroCelular,minutosNacionales,costoMinutoNacional,"
+                           + "minutosInternacionales,costoMinutoInternacional) values "
                     + "('%s', '%s', '%s', '%s', '%s', %d, %f, %f, %f, %f)", 
                     p1.obtenerNombrePropietario(),p1.obtenerCedulaPropietario(),p1.obtenerCiudadPropietario(),
                     p1.obtenerMarcaCelular(),p1.obtenerModeloCelular(),p1.obtenerNumeroCelular(),p1.obtenerMinutosNacionales(),

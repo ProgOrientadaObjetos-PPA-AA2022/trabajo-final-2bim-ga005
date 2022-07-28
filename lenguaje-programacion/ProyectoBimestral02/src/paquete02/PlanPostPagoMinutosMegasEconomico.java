@@ -18,7 +18,10 @@ public class PlanPostPagoMinutosMegasEconomico extends PlanCelular {
     private double costoGiga;
     private double porcentajeDescuento;
 
-    public PlanPostPagoMinutosMegasEconomico(double minutosSaldo, double costoMinutosSaldo, double gigasInternet, double costoGiga, double porcentajeDescuento, String nombrePropietario, String cadulaPropietario, String ciudadPropietario, String marcaCelular, String modeloCelular, int numeroCelular) {
+    public PlanPostPagoMinutosMegasEconomico(double minutosSaldo, double costoMinutosSaldo, double gigasInternet,
+                                             double costoGiga, double porcentajeDescuento, String nombrePropietario,
+                                             String cadulaPropietario, String ciudadPropietario, String marcaCelular,
+                                             String modeloCelular, int numeroCelular) {
         super(nombrePropietario, cadulaPropietario, ciudadPropietario, marcaCelular, modeloCelular, numeroCelular);
         this.minutosSaldo = minutosSaldo;
         this.costoMinutosSaldo = costoMinutosSaldo;

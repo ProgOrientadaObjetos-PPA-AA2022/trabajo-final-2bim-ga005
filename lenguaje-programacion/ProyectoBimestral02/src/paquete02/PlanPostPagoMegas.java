@@ -15,6 +15,7 @@ public class PlanPostPagoMegas extends PlanCelular {
     private double gigasInternet;
     private double costoGigasInternet;
     private double tarifaBase;
+<<<<<<< HEAD
 
     public PlanPostPagoMegas(double gigasInternet, double costoGigasInternet,
             double tarifaBase, String nombrePropietario, String cadulaPropietario,
@@ -23,6 +24,13 @@ public class PlanPostPagoMegas extends PlanCelular {
         super(nombrePropietario, cadulaPropietario, ciudadPropietario,
                 marcaCelular, modeloCelular, numeroCelular);
         establecerGigasInternet(gigasInternet);
+=======
+    public PlanPostPagoMegas(double gigasInternet, double costoGigasInternet, double tarifaBase, String nombrePropietario,
+                             String cadulaPropietario, String ciudadPropietario, String marcaCelular, String modeloCelular,
+                             int numeroCelular) {
+        super(nombrePropietario, cadulaPropietario, ciudadPropietario, marcaCelular, modeloCelular, numeroCelular);
+        this.gigasInternet = gigasInternet;
+>>>>>>> 4d4eadaa7718a5561b9ce477a6e67bb7acfcbae7
         this.costoGigasInternet = costoGigasInternet;
         this.tarifaBase = tarifaBase;
     }
