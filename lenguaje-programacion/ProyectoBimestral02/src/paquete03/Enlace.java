@@ -137,7 +137,7 @@ public class Enlace {
                 pm.establecerCedulaPropietario(rs.getString("cedulaPropietario"));
                 pm.establecerCiudadPropietario(rs.getString("ciudadPropietario"));
                 pm.establecerMarcaCelular(rs.getString("marcaCelular"));
-                pm.establecerModeloCelular(rs.getString("marcaCelular"));
+                pm.establecerModeloCelular(rs.getString("modeloCelular"));
                 pm.establecerNumeroCelular(rs.getInt("numeroCelular"));
                 pm.establecerGigasInternet(rs.getDouble("gigasInternet"));
                 pm.establecerCostoGigasInternet(rs.getDouble("costoGigasInternet"));
@@ -168,7 +168,7 @@ public class Enlace {
                 pm.establecerCedulaPropietario(rs.getString("cedulaPropietario"));
                 pm.establecerCiudadPropietario(rs.getString("ciudadPropietario"));
                 pm.establecerMarcaCelular(rs.getString("marcaCelular"));
-                pm.establecerModeloCelular(rs.getString("marcaCelular"));
+                pm.establecerModeloCelular(rs.getString("modeloCelular"));
                 pm.establecerNumeroCelular(rs.getInt("numeroCelular"));
                 pm.establecerMinutosNacionales(rs.getDouble("minutosNacionales"));
                 pm.establecerCostoMinutoInternacional(rs.getDouble("costoMinutoNacional"));
@@ -200,7 +200,7 @@ public class Enlace {
                 pm.establecerCedulaPropietario(rs.getString("cedulaPropietario"));
                 pm.establecerCiudadPropietario(rs.getString("ciudadPropietario"));
                 pm.establecerMarcaCelular(rs.getString("marcaCelular"));
-                pm.establecerModeloCelular(rs.getString("marcaCelular"));
+                pm.establecerModeloCelular(rs.getString("modeloCelular"));
                 pm.establecerNumeroCelular(rs.getInt("numeroCelular"));
                 pm.establecerMinutosSaldo(rs.getDouble("minutosSaldo"));
                 pm.establecerCostoMinutosSaldo(rs.getDouble("costoMinutosSaldo"));
@@ -232,7 +232,7 @@ public class Enlace {
                 pm.establecerCedulaPropietario(rs.getString("cedulaPropietario"));
                 pm.establecerCiudadPropietario(rs.getString("ciudadPropietario"));
                 pm.establecerMarcaCelular(rs.getString("marcaCelular"));
-                pm.establecerModeloCelular(rs.getString("marcaCelular"));
+                pm.establecerModeloCelular(rs.getString("modeloCelular"));
                 pm.establecerNumeroCelular(rs.getInt("numeroCelular"));
                 pm.establecerMinutosSaldo(rs.getDouble("minutosSaldo"));
                 pm.establecerCostoMinutosSaldo(rs.getDouble("costoMinutosSaldo"));

@@ -25,6 +25,7 @@ public class Ejecutor {
             System.out.println("Salir                           [0]");
             System.out.println("-----------------------------------");
             op = sc.nextInt();
+                    
             System.out.println("-----------------------------------");
             if (op == 1) {
                 do {

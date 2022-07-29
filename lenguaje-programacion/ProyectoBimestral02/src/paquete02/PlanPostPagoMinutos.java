@@ -70,7 +70,7 @@ public class PlanPostPagoMinutos extends PlanCelular {
 
     @Override
     public String toString() {
-        String reporte = String.format("PLAN POST PAGO MINUTOS\n%s"
+        String reporte = String.format("PLAN POST PAGO MINUTOS\n\n%s"
                 + "Minutos nacionales: %.2f\n"
                 + "Costo minutos nacionales: %.2f\n"
                 + "Minutos internacionales: %.2f\n"
